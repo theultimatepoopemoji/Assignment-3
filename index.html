@@ -4,11 +4,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Naina Convention Center</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/7574578785.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h3>Naina Convention Center</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">ABout Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="my-5">
+            <div>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/banner.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>The perfect venue for your next event</h1>
+                                <p>We'll be the fairy godmother to make your dream wedding come true.</p>
+                                <a class="btn py-2 px-4 bg-white text-primary fw-bold" href="#">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>The perfect venue for your next event</h1>
+                                <p>We'll be the fairy godmother to make your dream wedding come true.</p>
+                                <a class="btn py-2 px-4 bg-white text-primary fw-bold" href="#">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/banner.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h1>The perfect venue for your next event</h1>
+                                <p>We'll be the fairy godmother to make your dream wedding come true.</p>
+                                <a class="btn py-2 px-4 bg-white text-primary fw-bold" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container py-5">
+            <div class="d-flex align-items-center">
+                <div class="me-5">
+                    <h2>Explore all the food options</h2>
+                    <p>Our convention center will provide you with all types of food. We will also consider all of your
+                        allergies or preferences while preparing the food. The buffet will make you want to have another
+                        celebration again the next day, right here!</p>
+                </div>
+                <div>
+                    <img src="images/Buffet.jpg" alt="">
+                </div>
+            </div>
+            <div class="d-flex justify-content-end pt-5">
+                <div class="toast align-items-center text-bg-primary border-0 show" role="alert" aria-live="assertive"
+                    aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body">
+                            Get 20% off today! </div>
+                        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex container align-items-center my-5">
+            <div>
+                <img src="images/wedding.png" alt="">
+            </div>
+            <div class="ms-5">
+                <h2 class="fw-bold">Every moment is Precious </h2>
+                <p>Want to spend your special day with your precious family? Don't worry, We got you. We would also be
+                    providing you photgraphers to capture all of your beautiful memories.</p>
+                <a class="btn py-2 px-4 bg-primary text-white fw-bold" href="www.google.com">Explore our album <i
+                        class="fa-solid fa-arrow-right ps-2"></i></a>
+            </div>
+        </section>
+    </main>
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
